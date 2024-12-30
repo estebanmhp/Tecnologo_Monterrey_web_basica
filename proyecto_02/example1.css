@@ -14,5 +14,20 @@ body {
     background-color: rgb(197, 254, 244);
     margin-left: 50px;
     margin-top: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#ids {
+    margin-top: 25px;
+    font-style: italic;
+    font-size: 16.5px;
+}
+.general {
+    color: rgb(255, 192, 90);
+    font-size: 14.5px;
+}
+.specific {
+    font-size: 12px;
+    margin-top: -15px;
 }
