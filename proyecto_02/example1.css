@@ -18,6 +18,7 @@ body {
     background-color: rgb(197, 254, 244);
     margin-left: 50px;
     margin-top: 25px;
+    height: 1500px;
 }
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -50,4 +51,60 @@ p {
     display: flex;
     align-items: flex-end;
     height: 65px;
+}
+/* Metodos de posicionamiento */
+.relative {
+    background-color: rgb(255, 217, 170);
+    border: 2px solid rgb(255, 129, 104);
+    width: 200px;
+    height: 100px;
+    margin-top: 45px;
+    text-align: center;
+    padding-bottom: 45px;
+    position: relative;
+    top: -20px;
+    left: 375px;    
+}
+.relative .relative {
+    margin-top: 45px;
+    margin-left: -275px;
+}
+.fixed {
+    background-color: rgb(212, 165, 255);
+    border: 3px dotted rgb(211, 78, 255);
+    border-radius: 9px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    padding-bottom: 45px;
+    position: fixed;
+    top: 515px;
+    left: 700px;
+}
+.sticky {
+    background-color: rgb(135, 219, 161);
+    border: 3px inset rgb(66, 147, 74);
+    border-radius: 9px;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    padding-bottom: 45px;
+    margin-top: 0px;
+    position: sticky;
+    top: 25px;
+}
+.absolute {
+    background-color: rgb(111, 198, 218);
+    border: 3px inset rgb(53, 171, 186);
+    border-radius: 9px;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    padding-bottom: 45px;
+    position: absolute;
+    top: 345px;
+}
+.child {
+    margin-top: -240px;
+    margin-left: 100px;
 }
